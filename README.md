@@ -2,10 +2,12 @@
 -------------------------
 
 1. DESCRIPTION
+
 The SMS Spam Collection (hereafter the corpus) is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam. 
 
 ----------------
 2. Compilation
+
 This corpus has been collected from free or free for research sources at the Web:
 
 - A collection of between 425 SMS spam messages extracted manually from the Grumbletext Web site. This is a UK forum in which cell phone users make public claims about SMS spam messages, most of them without reporting the very spam message received. The identification of the text of spam messages in the claims is a very hard and time-consuming task, and it involved carefully scanning hundreds of web pages. The Grumbletext Web site is: http://www.grumbletext.co.uk/
@@ -18,10 +20,12 @@ This corpus has been collected from free or free for research sources at the Web
 
 ---------------
 3. Statistics
+
 There is one collection:
 
 - The SMS Spam Collection (text file: SMSSpamCollection) has a total of 4,827 SMS legitimate messages (86.6%) and a total of 747 (13.4%) spam messages.
 
 -----------
 4. Format
+
 The files contain one message per line. Each line is composed by two columns: one with label (ham or spam) and other with the raw text.
